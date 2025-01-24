@@ -24,6 +24,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
+          cd client
           npm install
           npm run build
           mv ./build/static ./build/standalone/build
