@@ -19,3 +19,21 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.text-grey{
+  color: #a7a7a7;
+}
+
+.content {
+  position: absolute;      /* Elemen anak diposisikan secara absolut */
+  top: 50%;                /* Menempatkan konten di tengah secara vertikal */
+  left: 50%;               /* Menempatkan konten di tengah secara horizontal */
+  transform: translate(-50%, -50%); /* Menggeser konten ke tengah tepat */
+}
+
+.center-container {
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center;     /* Vertical center */
+  height: 100vh;           /* Agar container memiliki tinggi penuh viewport */
+}
